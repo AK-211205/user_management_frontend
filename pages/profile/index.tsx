@@ -15,7 +15,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Switch } from '@/components/ui/switch';
+
 
 export default function UserProfilePage() {
   const [personalInfoOpen, setPersonalInfoOpen] = useState(true);
