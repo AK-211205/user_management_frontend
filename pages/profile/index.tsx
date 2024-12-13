@@ -5,7 +5,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { User, Settings, Lock, ChevronDown, ChevronUp } from 'lucide-react';
-import { Header } from '../components/Header';
+import Header  from '../components/Header';
 import { showSuccessToast, showErrorToast } from '../components/ToastNotify';
 
 import {
