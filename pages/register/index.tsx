@@ -81,7 +81,7 @@ export default function RegisterPage() {
     }
 
     try {
-      const response = await fetch('http://localhost:3002/user/register', {
+      const response = await fetch('https://user-management-assignment-kxrx.onrender.com/user/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
