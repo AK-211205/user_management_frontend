@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { User, Settings, Lock, ChevronDown, ChevronUp } from 'lucide-react';
-import { Header } from './components/Header';
+import  Header  from './components/Header';
 
 import { 
   Card, 
