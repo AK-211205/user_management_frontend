@@ -299,10 +299,7 @@ export default function UserProfilePage() {
             <Button variant="outline" className="w-full" onClick={handleClick}>
               Change Password
             </Button>
-            <div className="flex items-center justify-between">
-              <span className="text-sm font-medium">Two-Factor Authentication</span>
-              <Switch />
-            </div>
+            
           </div>
         </CardContent>
       )}
