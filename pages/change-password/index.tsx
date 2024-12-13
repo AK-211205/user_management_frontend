@@ -187,7 +187,7 @@ export default function ChangePasswordPage() {
     }
 
     try {
-      const response = await fetch('http://localhost:3002/user/change-password', {
+      const response = await fetch('https://user-management-assignment-kxrx.onrender.com/user/change-password', {
         method: 'PUT',
         credentials: 'include',
         headers: {
