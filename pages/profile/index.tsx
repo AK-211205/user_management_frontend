@@ -60,7 +60,7 @@ export default function UserProfilePage() {
           router.push('/login');
         }
       } catch (err) {
-        showErrorToast(err.message || 'Error fetching user details');
+        showErrorToast(err || 'Error fetching user details');
         router.push('/login');
       } finally {
         setLoading(false);
@@ -79,7 +79,7 @@ export default function UserProfilePage() {
       router.push('/login'); // Redirect to login after logout
     } catch (err) {
       console.error('Error during logout:', err);
-      showErrorToast(err.message || 'Error during logout');
+      showErrorToast(err || 'Error during logout');
     }
   };
 
