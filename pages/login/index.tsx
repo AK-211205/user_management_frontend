@@ -60,7 +60,7 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3002/user/login', {
+      const response = await fetch('https://user-management-assignment-kxrx.onrender.com/user/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
