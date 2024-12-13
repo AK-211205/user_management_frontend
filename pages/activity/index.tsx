@@ -34,7 +34,7 @@ export default function ActivityPage() {
   useEffect(() => {
     const fetchActivities = async () => {
       try {
-        const response = await fetch('http://localhost:3002/user/activity', {
+        const response = await fetch('https://user-management-assignment-kxrx.onrender.com/user/activity', {
           method: 'GET',
           credentials: 'include', // Include cookies in the request
         });
