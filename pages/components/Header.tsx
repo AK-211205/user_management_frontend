@@ -9,7 +9,7 @@ interface HeaderProps {
   toggleDarkMode: () => void;
 }
 
-export function Header({ darkMode, toggleDarkMode }: HeaderProps) {
+export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
   return (
     <header className="sticky top-0 bg-background z-10 py-4 border-b">
       <div className="container mx-auto px-4">
